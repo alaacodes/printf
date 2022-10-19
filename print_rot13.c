@@ -8,13 +8,13 @@
  * Return: number of chars printed
  */
 int print_R(va_list R)
-{	
+{
 	char *str;
 	unsigned int i, j;
 	int count = 0;
-	char in[] = 
+	char in[] =
 	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-		char out[] = 
+		char out[] =
 	"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 		str = va_arg(R, char *);
@@ -39,5 +39,3 @@ int print_R(va_list R)
 		}
 		return (count);
 }
-
-
