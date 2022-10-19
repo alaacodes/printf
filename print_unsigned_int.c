@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- *
  * print_u - prints an unsigned in decimal notation
  * @u: unsigned int to print
  *
  * Return: number of digits printed
  */
 int print_u(va_list u)
-{	
+{
 	unsigned int a[10];
 	unsigned int i, m, n, sum;
 	int count;
@@ -16,7 +15,7 @@ int print_u(va_list u)
 	n = va_arg(u, unsigned int);
 	m = 1000000000; /* (10 ^ 9) */
 	a[0] = n / m;
-	
+
 
 	{
 		m /= 10;
