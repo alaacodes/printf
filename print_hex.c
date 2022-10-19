@@ -40,8 +40,7 @@ int print_hex(unsigned int n, unsigned int c)
 	return (count);
 }
 /**
- *
- *  * print_x - takes an unsigned int and prints it in lowercase hex notation
+ * print_x - takes an unsigned int and prints it in lowercase hex notation
  * @x: unsigned int to print
  *
  * Return: number of digits printed
@@ -52,8 +51,7 @@ int print_x(va_list x)
 }
 
 /**
- *
- *  * print_X - takes am unsigned int and prints it in uppercase hex notation
+ * print_X - takes am unsigned int and prints it in uppercase hex notation
  * @X: unsigned int to print.
  *
  * Return: number of digits printed
@@ -67,7 +65,7 @@ int print_X(va_list X)
  * _pow - calculates an exponent
  * @base: base of exponent
  * @exponent: exponent of number
- *  
+ *
  * Return: base ^ exponent
  */
 static unsigned long _pow(unsigned int base, unsigned int exponent)
@@ -132,11 +130,3 @@ int print_p(va_list p)
 	}
 	return (count);
 }
-
-
-
-
-
-	
-
-
