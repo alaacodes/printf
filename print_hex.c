@@ -52,7 +52,7 @@ int print_x(va_list x)
 
 /**
  * print_X - takes am unsigned int and prints it in uppercase hex notation
- * @X: unsigned int to print.
+ * @X: unsigned int to print
  *
  * Return: number of digits printed
  */
@@ -84,7 +84,7 @@ static unsigned long _pow(unsigned int base, unsigned int exponent)
  * print_p - prints an address
  * @p: address to print
  *
- * Return: number of characters to print*
+ * Return: number of characters to print
  */
 int print_p(va_list p)
 {
@@ -113,7 +113,6 @@ int print_p(va_list p)
 	{
 		m /= 16;
 		a[i] = (n / m) % 16;
-
 	}
 	for (i = 0, sum = 0; i < 16; i++)
 	{
