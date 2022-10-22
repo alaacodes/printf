@@ -27,13 +27,6 @@ int print_i(va_list i)
 		for (j = 0; j < 10; j++)
 			a[j] *= -1;
 	}
-	if (n < 0)
-	{
-		_putchar('-');
-		count++;
-		for (j = 0; j < 10; j++)
-			a[j] *= -1;
-	}
 	for (j = 0, sum = 0; j < 10; j++)
 	{
 		sum += a[j];
@@ -84,9 +77,3 @@ int print_d(va_list d)
 	}
 	return (count);
 }
-
-
-
-
-
-
