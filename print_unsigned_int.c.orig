@@ -15,6 +15,11 @@ int print_u(va_list u)
 	n = va_arg(u, unsigned int);
 	m = 1000000000; /* (10 ^ 9) */
 	a[0] = n / m;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f8578c38191fbe89d3e9486f03da5f21f58776a6
 	{
 		m /= 10;
 		a[i] = (n / m) % 10;
